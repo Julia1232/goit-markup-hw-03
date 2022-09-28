@@ -1,0 +1,453 @@
+/* основной цвет текста = #212121;  */
+/* вторичный цвет текста = #757575;  */
+
+/* акцент = #2196F3; */
+/* цвет секций = #2F303A;  */
+/* цвет секций_2 = #ECECEC;  */
+
+/* белый = #FFFFFF;  */
+
+
+
+:root{
+    --primary-text-color:#212121;
+    --second-text-color:#757575;
+    --accent-color:#2196F3;
+    --section-color-1:#2F303A;
+    --section-color-2:#ECECEC;
+
+
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+
+body{
+    color: #212121;
+    background-color: #F5F5F5;
+    font-family: Roboto, sans-serif;      
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+
+}
+
+h2 {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-padding {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+/* ==================== COMPONENTS ==================== */
+
+/* ==================== COMPONENTS ==================== */
+
+
+
+/* ==================== HEADER ==================== */
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.page-header-container{
+    display:flex;
+    align-items: center;
+}
+
+.page-navigation{
+    display:flex;
+    align-items: center;
+    column-gap: 93px;
+}
+
+.menu{
+    display: flex;
+    column-gap: 50px;
+}
+
+.logo{
+    color: var(--section-color-1);
+    font-family: Raleway, sans-serif;
+    font-weight:700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    
+}
+.logo-web{
+     color: var(--accent-color);
+}
+
+.menu-link{
+    color: var(--section-color-1);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.1;
+    letter-spacing: 0.02em;
+}
+.menu-link :hover, .mail:hover, .phone:hover, .menu-link:focus, .mail:focus,
+.phone:focus, .footer .mail:hover, .footer .mail:focus,  .footer .phone:hover,
+.footer .phone:focus{
+    color: var(--accent-color);
+}
+
+
+.menu-link-studio, .menu-link-portfolio, .menu-link-contact{
+    color: var(--accent-color);
+    }
+
+.mail, .phone{
+    color: var(--second-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+   
+}
+.mail{
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+/* ==================== /HEADER ==================== */
+
+/* ==================== SOLUTION ==================== */
+.solution{
+    background-color:var(--section-color-1);
+    padding-top: 200px;
+    padding-bottom:200px ;
+    
+}
+
+.container-title{
+    display: flex;
+        justify-content: center;
+}
+
+.solution-title{
+    width: 696px;
+}
+
+.portfolio-h1{
+    color: #212121;
+}
+
+
+.solution-btn{
+    background-color: var(--accent-color);
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-radius: 4px;;
+    padding: 10px 32px;
+    min-width: 216px;
+    border: none;
+    margin-top: 30px;
+
+}
+
+.solution-div-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.solution-div-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.solution-btn:hover, .solution-btn:focus{
+    background-color:#188CE8;
+}
+
+/* ==================== /SOLUTION ==================== */
+
+/* ==================== ADVANTAGE ==================== */
+.advantage{
+padding-bottom: 47px;}
+
+.advantage-item-ul {
+    display: flex;
+    gap:30px;
+    flex-basis:calc((100%-90)/4);
+}
+
+.advantage-item-title{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantage-item-description{
+    color:var(--second-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+/* ==================== /ADVANTAGE ==================== */
+
+
+/* ==================== 0CCASIONS ==================== */
+.occasions{
+padding-top: 47px;}
+
+.occasions-title{
+    padding-bottom: 50px;
+}
+
+.occasions-list{
+display: flex;
+flex-wrap: wrap;
+column-gap: 30px;
+flex-basis: calc((100%-60px)/3);}
+
+/* ==================== /0CCASIONS ==================== */
+
+
+/* ==================== TEAM ==================== */
+.team{
+    background-color: var(--section-color-2);
+}
+
+.team-item {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;}
+    
+.team-item-description{
+    padding-top: 30px;
+        padding-bottom: 30px;
+}
+
+.team-title{
+margin-bottom: 50px;}
+
+.team-list{
+    display: flex;
+    column-gap: 30px;
+    flex-basis: calc((100%-90px)/4);
+}
+
+.team-member {
+    color:var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+.team-member-name {
+    color:var(--second-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* ==================== /TEAM ==================== */
+
+/* ==================== FOOTER ==================== */
+.footer{
+    background-color: var(--section-color-1);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer .logo{
+    color:#FFFFFF;
+}
+
+.adress {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.footer .mail,.footer .phone{
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style:normal;
+}
+
+
+.footer-item{
+    margin-top: 9px;
+}
+.footer-adress{
+    margin-top: 20px;
+}
+/* ==================== /FOOTER ==================== */
+
+/* ==================== PORTFOLIO ==================== */
+.portfolio-btn{
+    background-color:#F5F4FA;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+    padding: 6px 22px;
+}
+
+.portfolio-btn:focus, .portfolio-btn:hover{
+    background-color:var(--accent-color);
+    color:#FFFFFF;
+}
+.portfolio-link{
+    text-decoration: none;
+}
+.portfolio-title{
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.portfolio-description{
+color: var(--second-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+}
+
+
+.portfolio-list{
+display: flex;
+margin-bottom: 52px;
+justify-content: center;}
+
+.portfolio-padding{
+    padding-left:auto ;
+    padding-right:auto;
+}
+
+.portfolio-works{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    flex-basis: calc((100%-60px)/3);
+}
+
+.portfolio-div{
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE ;
+    border-top:none;
+}
+/* ==================== /PORTFOLIO ==================== */
