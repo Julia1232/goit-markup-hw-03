@@ -74,10 +74,13 @@ button {
     font-family: inherit;
 }
 
+button:hover, button:focus{  
+    font-family: inherit;
+}
+
 
 body{
     color: #212121;
-    background-color: #F5F5F5;
     font-family: Roboto, sans-serif;      
 }
 
@@ -186,6 +189,10 @@ h2 {
 
 .menu-link-studio, .menu-link-portfolio, .menu-link-contact{
     color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     }
 
 .mail, .phone{
@@ -262,7 +269,8 @@ h2 {
 
 /* ==================== ADVANTAGE ==================== */
 .advantage{
-padding-bottom: 47px;}
+padding-bottom: 47px;
+background-color: #F5F5F5}
 
 .advantage-item-ul {
     display: flex;
@@ -277,6 +285,7 @@ padding-bottom: 47px;}
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .advantage-item-description{
@@ -291,6 +300,7 @@ padding-bottom: 47px;}
 
 /* ==================== 0CCASIONS ==================== */
 .occasions{
+background-color: #F5F5F5;
 padding-top: 47px;}
 
 .occasions-title{
@@ -308,12 +318,13 @@ flex-basis: calc((100%-60px)/3);}
 
 /* ==================== TEAM ==================== */
 .team{
-    background-color: var(--section-color-2);
+    background-color:#F5F4FA;
 }
 
 .team-item {
     background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;}
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);  }
     
 .team-item-description{
     padding-top: 30px;
@@ -431,7 +442,8 @@ letter-spacing: 0.03em;
 .portfolio-list{
 display: flex;
 margin-bottom: 52px;
-justify-content: center;}
+justify-content: center;
+gap: 8px;}
 
 .portfolio-padding{
     padding-left:auto ;
