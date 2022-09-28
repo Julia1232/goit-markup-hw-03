@@ -80,6 +80,7 @@ button:hover, button:focus{
 
 
 body{
+    background-color: #FFFFFF;
     color: #212121;
     font-family: Roboto, sans-serif;      
 }
@@ -269,8 +270,7 @@ h2 {
 
 /* ==================== ADVANTAGE ==================== */
 .advantage{
-padding-bottom: 47px;
-background-color: #F5F5F5}
+padding-bottom: 47px;}
 
 .advantage-item-ul {
     display: flex;
@@ -300,7 +300,6 @@ background-color: #F5F5F5}
 
 /* ==================== 0CCASIONS ==================== */
 .occasions{
-background-color: #F5F5F5;
 padding-top: 47px;}
 
 .occasions-title{
